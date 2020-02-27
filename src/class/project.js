@@ -1033,7 +1033,7 @@ Entry.getStartProject3 = function(mediaFilePath) {
                             params: [
                                 {
                                     type: 'number',
-                                    params: ['15'],
+                                    params: ['2'],
                                 },
                                 {
                                     type: 'number',
@@ -1047,9 +1047,8 @@ Entry.getStartProject3 = function(mediaFilePath) {
                             ],
                             type: 'move_xy_time',
                         
-                        },
-                        { params: ['thisOnly', null],
-                        type: 'stop_object' }
+                        }
+                        
                         
                         
                        
@@ -1126,7 +1125,7 @@ Entry.getStartProject3 = function(mediaFilePath) {
                             params: [
                                 {
                                     type: 'number',
-                                    params: ['15'],
+                                    params: ['2'],
                                 },
                                 {
                                     type: 'number',
@@ -1640,6 +1639,8 @@ Entry.getStartProject3 = function(mediaFilePath) {
                         ],
                         type: 'change_to_some_shape',
                     },
+                    { params: ['thisOnly', null],
+                        type: 'stop_object' }
                     
                 ]]
                                 }]]
